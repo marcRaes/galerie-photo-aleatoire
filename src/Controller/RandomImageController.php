@@ -16,7 +16,8 @@ final class RandomImageController extends AbstractController
         $faker = Factory::create('fr_FR');
 
         for ($i = 0; $i < 9; $i++) {
-            $images[] = 'https://picsum.photos/300/200?random=' . $i;
+            $images[$i]['image'] = 'https://picsum.photos/300/200?random=' . $i;
+            $images[$i]['cardText'] = $faker->paragraph();
         }
 
         return $this->render('random_image/index.html.twig', [
