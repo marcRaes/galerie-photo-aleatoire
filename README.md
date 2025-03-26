@@ -10,6 +10,7 @@ Ce projet Symfony permet d'afficher une galerie de photos aléatoires. Les image
 ## Utilisation
 
 * La page d'accueil affiche une galerie de photos aléatoires.
+* Vous pouvez cliquer sur une photo pour l'afficher en taille réelle.
 * Le projet est conçu pour être simple et facile à utiliser.
 
 ## Contribution
