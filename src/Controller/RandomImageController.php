@@ -16,7 +16,7 @@ final class RandomImageController extends AbstractController
         $faker = Factory::create('fr_FR');
 
         for ($i = 0; $i < 9; $i++) {
-            $images[$i]['image'] = 'https://picsum.photos/300/200?random=' . $i;
+            $images[$i]['imageUrl'] = 'https://picsum.photos/750/650?random=' . $i;
             $images[$i]['cardText'] = $faker->paragraph();
         }
 
